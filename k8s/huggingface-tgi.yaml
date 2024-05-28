@@ -30,7 +30,7 @@ spec:
             - name: MODEL_ID
               # value: yanolja/EEVE-Korean-Instruct-10.8B-v1.0
               # value: beomi/Llama-3-Open-Ko-8B-Instruct-preview
-              value: beomi/Llama-3-KoEn-8B-Instruct-preview
+              value: CallComply/Starling-LM-11B-alpha
             - name: PORT
               value: "8080"
             # Possible values:

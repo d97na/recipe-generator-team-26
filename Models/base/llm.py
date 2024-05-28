@@ -26,6 +26,7 @@ class ChatGPTModel(BaseLLMModel):
         return ChatOpenAI(
             model_name=self.model,  # type: ignore
             temperature=self.temperature,
+            openai_api_key= "sk-proj-hqwGz8VBdldI5JKeJvSJT3BlbkFJDICXVL5PGLRhQmroNQhE",
         )  # type: ignore
 
 
